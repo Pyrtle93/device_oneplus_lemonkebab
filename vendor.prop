@@ -182,6 +182,7 @@ debug.hwui.target_cpu_time_percent=30
 debug.hwc.disabletonemapping=true
 debug.hwui.disabledither=false
 debug.refresh_rate.view_override=1
+debug.hwui.use_buffer_age=false
 
 # Keystore
 ro.hardware.keystore_desede=true
