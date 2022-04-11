@@ -437,6 +437,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
     init.qti.media.sh \
+    android.hardware.media.omx@1.0-impl \
+    android.hardware.media.omx@1.0-service \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
