@@ -731,6 +731,15 @@
             <instance>slot2</instance>
         </interface>
     </hal>
+<hal format="aidl" optional="true">
+    <name>vendor.qti.hardware.radio.ims</name>
+    <version>1-6</version>
+    <interface>
+        <name>IImsRadio</name>
+        <instance>imsradio0</instance>
+        <instance>imsradio1</instance>
+    </interface>
+</hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.radio.ims</name>
         <version>1.0-7</version>
