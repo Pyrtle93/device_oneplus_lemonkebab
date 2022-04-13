@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.audiohalext@1.0.vendor \
     audio.a2dp.default \
     audio.bluetooth.default \
+    audio.primary.default \
     audio.primary.kona \
     audio.r_submix.default \
     audio.usb.default \
