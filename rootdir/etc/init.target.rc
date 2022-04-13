@@ -260,3 +260,9 @@ on property:persist.sys.oemlog.pullxlog=true
    exec u:r:installd:s0 -- /system_ext/bin/pull_xlog.sh
    setprop persist.sys.oemlog.pullxlog false
 # endif  /* VENDOR_EDIT */
+
+on property:ro.boot.project_codename=kebab
+    setprop persist.radio.multisim.config dsds
+
+on property:ro.boot.project_codename=lemonades
+    setprop persist.radio.multisim.config dsds
