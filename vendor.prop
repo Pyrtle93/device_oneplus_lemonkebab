@@ -278,3 +278,7 @@ vendor.usb.use_ffs_mtp=0
 
 # WiFi
 wifi.aware.interface=wifi-aware0
+
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
