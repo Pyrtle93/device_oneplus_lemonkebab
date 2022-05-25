@@ -179,7 +179,6 @@ vendor.gralloc.disable_ubwc=0
 debug.cpurend.vsync=false
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
-debug.hwui.use_buffer_age=false
 debug.hwc.disabletonemapping=true
 debug.hwui.disabledither=false
 debug.refresh_rate.view_override=1
@@ -282,3 +281,5 @@ wifi.aware.interface=wifi-aware0
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# perf
+ro.vendor.perf.scroll_opt=1
