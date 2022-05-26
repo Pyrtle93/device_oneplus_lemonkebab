@@ -25,7 +25,7 @@ $(call inherit-product, device/oneplus/lemonkebab/device.mk)
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Xtras
-SPARK_BUILD_TYPE := Beta
+SPARK_BUILD_TYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GAPPS=true
