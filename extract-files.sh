@@ -65,7 +65,8 @@ function blob_fixup() {
             sed -i -e 's|xliff=\"urn:oasis:names:tc:xliff:document:1.2|android=\"http:\/\/schemas.android.com\/apk\/res\/android|' "${2}"
             ;;
         vendor/lib64/hw/com.qti.chi.override.so)
-            sed -i "s/com.oem.autotest/\x00om.oem.autotest/" "${2}"
+            "${SIGSCAN}" -p "9B 2B 04 94" -P "1F 20 03 D5" -f "${2}"
+            "${SIGSCAN}" -p "46 23 04 94" -P "1F 20 03 D5" -f "${2}"
             ;;
     esac
 }
