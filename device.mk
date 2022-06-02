@@ -662,13 +662,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.disable_backpressure=0 \
 	debug.sf.enable_gl_backpressure=1
 
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.use_phase_offsets_as_durations=1
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.late.sf.duration=10500000
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.late.app.duration=16600000
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.early.sf.duration=16600000
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.early.app.duration=16600000
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.earlyGl.sf.duration=16600000
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.earlyGl.app.duration=16600000
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_late_app_phase_offset_ns=1000000
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.high_fps_early_phase_offset_ns=-4000000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.frame_rate_multiple_threshold=120
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.layer_caching_active_layer_timeout_ms=1000
 
