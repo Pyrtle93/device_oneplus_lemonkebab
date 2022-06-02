@@ -160,7 +160,6 @@ vendor.gatekeeper.disable_spu=true
 debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.sf.hw=0
-debug.sf.disable_client_composition_cache=1
 persist.demo.hdmirotationlock=false
 persist.sys.sf.color_mode=0
 persist.sys.sf.color_saturation=1.0
@@ -233,6 +232,9 @@ ro.com.android.dataroaming=false
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
+
+# Random AOSP props from services/surfaceflinger/SurfaceFlinger.cpp|h
+debug.sf.disable_client_composition_cache=0
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
