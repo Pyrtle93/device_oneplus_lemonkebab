@@ -475,6 +475,13 @@ vendor/etc/qdcm_calib_data_samsung_amb655x_fhd_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ana6705_fhd_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ana6706_dsc_cmd_mode_panel.xml
 
+# Display eye protection data
+odm/etc/samsung1024_amb655x_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+
 # Display postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/ppd
